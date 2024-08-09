@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bgcol{
+    background-color:  rgba(215, 245, 220, 1);
+    ;
+    width: 2000px;
+    height: 900px;
+}
+.nav{
+    display: flex;
+}
+.navbar {
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+     padding: 10px 20px;
+     margin-top: 50px;
+     
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin-left: 999px;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.nav-list li:last-child {
+    margin-right: 0;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+    margin-top: 50px;
+}
+
+.nav-list li a:hover {
+    color: #ff0000;
+    /* Change the color on hover */
+}
+
+
+.dropdown-icon{
+margin-right: 20px;
+}
+.loginb button {
+    color:black;
+    background-color: white;
+    border-radius: 10px;
+    border-color: #0ff639;
+    height: 44px;
+    width: 93px;
+    margin-top: 50px;
+}
+
+.loginb button:hover{
+    background-color: black;
+    color: white;
+    border-color: #ff0000;
+}
+.registerb button{
+    color:white;
+    background-color: green;
+    border-radius: 10px;
+    border-color:black;
+    height: 44px;
+    width: 93px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.registerb button:hover{
+    background-color: white;
+    color: black;
+    border-color: gray;
+}
+.txt{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+
+margin-top: 50px;
+margin-left: 50px;
+}
+.girl-img img{
+           width: 684px;
+           height: 564px;
+           margin-top: 50px;
+           margin-left: 500px;
+           
+               
+}
+.header-txt{
+    font-family: Poppins;
+font-size: 50px;
+font-weight: 700;
+line-height: 65px;
+text-align: left;
+width: 550px;
+height: 195px;
+gap: 0px;
+opacity: 0px;
+margin-left: 80px;
+margin-top: 9%;
+
+}
+
+.headersmall-txt{
+    font-family: Avenir;
+font-size: 20px;
+font-weight: 500;
+line-height: 27.32px;
+margin-left: 80px;
+
+}
+
+.getstart button{
+border: 2px;
+color: white;
+border-color: black;
+font-size:30px;
+margin-left: 200px;
+margin-top: 50px;
+background-color: green;
+border-radius: 10px;
+padding: 20px;
+}
